@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+  jcr:primaryType="cq:Template"
+  jcr:title="Fancy Page Template"
+  jcr:description="Fancy Template for tw foundation"
+  allowedPaths="/content(/.*)?"
+  ranking="{Long}3">
+  <jcr:content
+    jcr:primaryType="cq:PageContent"
+    sling:resourceType="tw-foundation/components/fancypage">
+  </jcr:content>
+</jcr:root>
